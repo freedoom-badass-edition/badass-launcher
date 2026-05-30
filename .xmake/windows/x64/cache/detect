@@ -1,0 +1,230 @@
+{
+    ["detect.sdks.find_vcpkgdir"] = false,
+    ["lib.detect.has_flags"] = {
+        ["mingw_x86_64_d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe__cxx__-m64_-O3"] = true,
+        ["mingw_x86_64_d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe__cc_cxflags_-m64_-fdiagnostics-color=always"] = true,
+        ["mingw_x86_64_d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe__cxx_cxflags_-m64_-fvisibility-inlines-hidden"] = true,
+        ["mingw_x86_64_d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe__cc_cxflags_-m64_-Wno-gnu-line-marker -Werror"] = true,
+        ["mingw_x86_64_d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe__cxx_cxflags_-m64_-DNDEBUG"] = true,
+        ["mingw_x86_64_d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe__cxx_cxflags_-m64_-fdiagnostics-color=always"] = true,
+        ["mingw_x86_64_d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe__cxx_cxflags_-m64_-MMD -MF"] = true,
+        ["mingw_x86_64_d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe__cxx_cxflags_-m64_-Wno-gnu-line-marker -Werror"] = true
+    },
+    find_program_mingw_arch_x86_64_plat_mingw_checktoolld = {
+        ["x86_64-w64-mingw32-g++"] = [[D:\Programs\mingw64\bin\x86_64-w64-mingw32-g++]]
+    },
+    ["detect.sdks.find_dotnet"] = {
+        dotnet = {
+            sdks = {
+                {
+                    directory = [[C:\Program Files\dotnet\sdk\9.0.102]],
+                    version = "9.0.102"
+                }
+            },
+            sdkdir = [[C:\Program Files\dotnet\sdk\9.0.102]],
+            version = "9.0.102",
+            runtimes = {
+                {
+                    name = "Microsoft.AspNetCore.App",
+                    version = "9.0.1"
+                },
+                {
+                    name = "Microsoft.NETCore.App",
+                    version = "6.0.36"
+                },
+                {
+                    name = "Microsoft.NETCore.App",
+                    version = "8.0.10"
+                },
+                {
+                    name = "Microsoft.NETCore.App",
+                    version = "8.0.14"
+                },
+                {
+                    name = "Microsoft.NETCore.App",
+                    version = "9.0.1"
+                },
+                {
+                    name = "Microsoft.WindowsDesktop.App",
+                    version = "6.0.36"
+                },
+                {
+                    name = "Microsoft.WindowsDesktop.App",
+                    version = "8.0.10"
+                },
+                {
+                    name = "Microsoft.WindowsDesktop.App",
+                    version = "8.0.14"
+                },
+                {
+                    name = "Microsoft.WindowsDesktop.App",
+                    version = "9.0.1"
+                }
+            },
+            bindir = [[C:\Program Files\dotnet]],
+            sdkver = "9.0.102"
+        }
+    },
+    find_program_mingw_arch_x86_64_plat_mingw_checktoolas = {
+        ["x86_64-w64-mingw32-gcc"] = [[D:\Programs\mingw64\bin\x86_64-w64-mingw32-gcc]]
+    },
+    find_program_mingw_arch_x86_64_plat_mingw_checktoolcc = {
+        ["x86_64-w64-mingw32-gcc"] = [[D:\Programs\mingw64\bin\x86_64-w64-mingw32-gcc]]
+    },
+    find_package_mingw_x86_64_fetch_package_system = {
+        libcurl_1e611aab4448493782718961880b5f44_release_external = false
+    },
+    find_program_fetch_package_xmake = {
+        ninja = false,
+        cmake = false
+    },
+    find_program_mingw_arch_x86_64_plat_mingw_checktoolranlib = {
+        ["D:\\Programs\\mingw64\\bin\\ranlib"] = [[d:\programs\mingw64\bin\ranlib.exe]]
+    },
+    find_programver = {
+        ["C:\\Program Files\\dotnet\\dotnet.exe"] = "9.0.102",
+        ["D:\\Programs\\CMake\\bin\\cmake"] = "4.1.0-rc1"
+    },
+    find_program_mingw_arch_x86_64_plat_mingw_checktoolcxx = {
+        ["x86_64-w64-mingw32-g++"] = [[D:\Programs\mingw64\bin\x86_64-w64-mingw32-g++]]
+    },
+    find_program_mingw_arch_x86_64_plat_mingw_checktoolsh = {
+        ["x86_64-w64-mingw32-g++"] = [[D:\Programs\mingw64\bin\x86_64-w64-mingw32-g++]]
+    },
+    find_program_mingw_arch_x86_64_plat_mingw_checktoolmrc = {
+        ["x86_64-w64-mingw32-windres"] = false,
+        ["D:\\Programs\\mingw64\\bin\\windres"] = [[d:\programs\mingw64\bin\windres.exe]]
+    },
+    find_package_mingw_x86_64_fetch_package_xmake = {
+        ["xmake::libcurl_1e611aab4448493782718961880b5f44_release_8.11.0_external"] = {
+            static = true,
+            linkdirs = {
+                [[C:\Users\rostuhan\AppData\Local\.xmake\packages\l\libcurl\8.11.0\1e611aab4448493782718961880b5f44\lib]]
+            },
+            libfiles = {
+                [[C:\Users\rostuhan\AppData\Local\.xmake\packages\l\libcurl\8.11.0\1e611aab4448493782718961880b5f44\lib\libcurl.a]]
+            },
+            version = "8.11.0",
+            sysincludedirs = {
+                [[C:\Users\rostuhan\AppData\Local\.xmake\packages\l\libcurl\8.11.0\1e611aab4448493782718961880b5f44\include]]
+            },
+            defines = "CURL_STATICLIB",
+            license = "MIT",
+            syslinks = {
+                "advapi32",
+                "crypt32",
+                "wldap32",
+                "winmm",
+                "ws2_32",
+                "user32",
+                "bcrypt"
+            },
+            links = {
+                "curl"
+            }
+        }
+    },
+    ["core.tools.gcc.has_cflags"] = {
+        ["d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe_"] = {
+            ["-c"] = true,
+            ["-no-canonical-prefixes"] = true,
+            ["-B"] = true,
+            ["-Xpreprocessor"] = true,
+            ["--version"] = true,
+            ["-pass-exit-codes"] = true,
+            ["-print-sysroot-headers-suffix"] = true,
+            ["-print-multi-os-directory"] = true,
+            ["-print-libgcc-file-name"] = true,
+            ["--param"] = true,
+            ["-E"] = true,
+            ["-dumpmachine"] = true,
+            ["-save-temps"] = true,
+            ["-print-multiarch"] = true,
+            ["--target-help"] = true,
+            ["-print-multi-directory"] = true,
+            ["-print-multi-lib"] = true,
+            ["-pie"] = true,
+            ["-time"] = true,
+            ["-print-search-dirs"] = true,
+            ["-shared"] = true,
+            ["-o"] = true,
+            ["-dumpversion"] = true,
+            ["-v"] = true,
+            ["-Xassembler"] = true,
+            ["-pipe"] = true,
+            ["-Xlinker"] = true,
+            ["--help"] = true,
+            ["-S"] = true,
+            ["-dumpspecs"] = true,
+            ["-x"] = true,
+            ["-print-sysroot"] = true
+        },
+        ["d:\\programs\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe_"] = {
+            ["-c"] = true,
+            ["-no-canonical-prefixes"] = true,
+            ["-B"] = true,
+            ["-Xpreprocessor"] = true,
+            ["-shared"] = true,
+            ["-pass-exit-codes"] = true,
+            ["-print-sysroot-headers-suffix"] = true,
+            ["-pie"] = true,
+            ["-print-multi-os-directory"] = true,
+            ["--param"] = true,
+            ["-E"] = true,
+            ["-dumpmachine"] = true,
+            ["--version"] = true,
+            ["-print-multiarch"] = true,
+            ["--target-help"] = true,
+            ["-print-multi-directory"] = true,
+            ["-print-multi-lib"] = true,
+            ["-Xassembler"] = true,
+            ["-time"] = true,
+            ["-print-search-dirs"] = true,
+            ["-save-temps"] = true,
+            ["-o"] = true,
+            ["-print-libgcc-file-name"] = true,
+            ["-v"] = true,
+            ["-dumpversion"] = true,
+            ["-pipe"] = true,
+            ["-Xlinker"] = true,
+            ["--help"] = true,
+            ["-S"] = true,
+            ["-dumpspecs"] = true,
+            ["-x"] = true,
+            ["-print-sysroot"] = true
+        }
+    },
+    find_programver_fetch_package_system = {
+        ["D:\\Programs\\mingw64\\bin\\ninja.exe"] = "1.13.2",
+        ["D:\\Programs\\CMake\\bin\\cmake"] = "4.1.0-rc1"
+    },
+    find_program_fetch_package_system = {
+        ninja = [[D:\Programs\mingw64\bin\ninja.exe]],
+        cmake = [[D:\Programs\CMake\bin\cmake]]
+    },
+    find_program_mingw_arch_x86_64_plat_mingw_checktoolar = {
+        ["D:\\Programs\\mingw64\\bin\\ar"] = [[d:\programs\mingw64\bin\ar.exe]]
+    },
+    ["detect.sdks.find_mingw"] = {
+        mingw = {
+            bindir = [[D:\Programs\mingw64\bin]],
+            cross = "x86_64-w64-mingw32-",
+            sdkdir = [[D:\Programs\mingw64]]
+        }
+    },
+    find_program = {
+        nim = false,
+        ninja = [[D:\Programs\mingw64\bin\ninja.exe]],
+        zig = false,
+        ["pkg-config"] = false,
+        ["D:\\Programs\\mingw64\\bin\\x86_64-w64-mingw32-gcc"] = [[d:\programs\mingw64\bin\x86_64-w64-mingw32-gcc.exe]],
+        curl = [[C:\Program Files\xmake\winenv\bin\curl]],
+        ["D:\\Programs\\mingw64\\bin\\x86_64-w64-mingw32-g++"] = [[d:\programs\mingw64\bin\x86_64-w64-mingw32-g++.exe]],
+        ["7z"] = [[C:\Program Files\xmake\winenv\bin\7z]],
+        git = [[D:\Programs\Git\cmd\git.exe]],
+        gzip = false,
+        ["vswhere.exe"] = false,
+        dotnet = [[C:\Program Files\dotnet\dotnet.exe]],
+        cmake = [[D:\Programs\CMake\bin\cmake]]
+    }
+}

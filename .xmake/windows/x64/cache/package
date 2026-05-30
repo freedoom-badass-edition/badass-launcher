@@ -1,0 +1,30 @@
+{
+    libcurl = {
+        static = true,
+        installdir = [[C:\Users\rostuhan\AppData\Local\.xmake\packages\l\libcurl\8.11.0\1e611aab4448493782718961880b5f44]],
+        __enabled = true,
+        envs = {
+            PATH = {
+                [[C:\Users\rostuhan\AppData\Local\.xmake\packages\n\ninja\v1.13.1\fd5a0995dca64146a4f4c4dbff879aad\bin]],
+                [[C:\Users\rostuhan\AppData\Local\.xmake\packages\c\cmake\4.2.3\674adf9609f646bc9f678b5e946b080a\bin]]
+            }
+        },
+        license = "MIT",
+        syslinks = {
+            "advapi32",
+            "crypt32",
+            "wldap32",
+            "winmm",
+            "ws2_32",
+            "user32",
+            "bcrypt"
+        },
+        defines = "CURL_STATICLIB",
+        sysincludedirs = [[C:\Users\rostuhan\AppData\Local\.xmake\packages\l\libcurl\8.11.0\1e611aab4448493782718961880b5f44\include]],
+        __requirestr = "libcurl",
+        links = "curl",
+        linkdirs = [[C:\Users\rostuhan\AppData\Local\.xmake\packages\l\libcurl\8.11.0\1e611aab4448493782718961880b5f44\lib]],
+        libfiles = [[C:\Users\rostuhan\AppData\Local\.xmake\packages\l\libcurl\8.11.0\1e611aab4448493782718961880b5f44\lib\libcurl.a]],
+        version = "8.11.0"
+    }
+}

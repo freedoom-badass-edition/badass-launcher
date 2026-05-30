@@ -1,0 +1,15 @@
+Detecting Visual Studio environment (cached); run `xmake global --clean` first if vs updated.
+checking for Microsoft Visual Studio (x64) version ... no
+Detecting Visual Studio environment (cached); run `xmake global --clean` first if vs updated.
+checking for Microsoft Visual Studio (x64) version ... no
+note: install or modify (m) these packages (pass -y to skip confirm)?
+in xmake-repo:
+  -> libcurl 8.11.0 [runtimes:"MDd", license:MIT]
+please input: y (y/n/m)
+  => downloading libcurl .. (1/curl)   => downloading libcurl .. (1/curl)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => downloading libcurl .. (1/7z)   => download https://github.com/curl/curl/releases/download/curl-8_11_0/curl-8.11.0.tar.bz2 .. ok
+  => installing libcurl .. (1/where.exe)   => installing libcurl .. (1/where.exe)   => installing libcurl .. (1/where.exe)   => installing libcurl .. (1/where.exe)   => install libcurl 8.11.0 .. failed
+
+vs not found!
+if you want to get more verbose errors, please see:
+  -> C:\Users\rostuhan\AppData\Local\.xmake\cache\packages\2605\l\libcurl\8.11.0\installdir.failed\logs\install.txt
+error: install failed!

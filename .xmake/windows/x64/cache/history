@@ -1,0 +1,10 @@
+{
+    cmdlines = {
+        "xmake f -p mingw",
+        [[xmake l c:\Users\rostuhan\.vscode\extensions\tboox.xmake-vscode-2.5.9\assets\explorer.lua]],
+        [[xmake l c:\Users\rostuhan\.vscode\extensions\tboox.xmake-vscode-2.5.9\assets\config.lua]],
+        "xmake run",
+        [[xmake lua "C:\\Program Files\\xmake\\modules\\private\\utils\\statistics.lua"]],
+        [[xmake lua "C:\\Program Files\\xmake\\actions\\build\\cleaner.lua"]]
+    }
+}
