@@ -14,4 +14,4 @@ jobs:
           xmake-version: latest
           build-cache: true
       - name: build
-        run: xmake
+        run: xmake -y -vD
