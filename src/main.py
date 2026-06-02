@@ -26,12 +26,12 @@ config.read('config.ini')
 
 directory = os.getcwd()+"/freedoom-badass-edition"
 sourceport = ""
-if config.get('badass', 'directory'):
-    directory = config.get('badass', 'directory')
-if config.get('badass', 'sourceport'):
-    sourceport = config.get('badass', 'sourceport')
 if not config.has_section('badass'):
     config.add_section('badass')
+if config.has_option('badass', 'directory'):
+    directory = config.get('badass', 'directory')
+if config.has_option('badass', 'sourceport'):
+    sourceport = config.get('badass', 'sourceport')
 config.set('badass', 'directory', directory)
 config.set('badass', 'sourceport', sourceport)
 with open('config.ini', 'w') as f:
