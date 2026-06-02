@@ -79,8 +79,7 @@ def start_game():
         if sourceport != "":
             download_status_label['text'] = "launching game..."
             root.update()
-            print('"'+directory+'" -file freedoom2.wad')
-            subprocess.run([sourceport, '"'+directory+'" -file freedoom2.wad'])
+            subprocess.run([sourceport, '-iwad', 'freedoom2.wad', '-file', directory])
         else:
             download_status_label['text'] = "sourceport isn't selected'"
     else:
