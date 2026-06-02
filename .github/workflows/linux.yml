@@ -26,9 +26,14 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest GitPython configparser Pillow
+        pip install pytest GitPython configparser Pillow pyinstaller
         sudo apt install -y python3-tk 
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Test with pytest
+    - name: Create executable
       run: |
-        pytest src/main.py
+        pyinstaller src/main.py --hidden-import='PIL._tkinter_finder'
+        cp -R ./assets/ ./dist/main/
+    - uses: actions/upload-artifact@v7
+      with:
+        name: badass-launcher
+        path: dist/main/
