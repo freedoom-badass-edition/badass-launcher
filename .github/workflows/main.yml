@@ -18,8 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: ['windows-latest', 'ubuntu-latest]
-
+        os: ['windows-latest', 'ubuntu-latest']
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.10
