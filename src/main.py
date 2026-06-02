@@ -80,22 +80,23 @@ def update():
     else:
         download_status_label['text'] = "fdb*e is not installed"
         o.pull()
-def start_game():
-    if is_git_repo(directory):
-        if sourceport != "":
-            download_status_label['text'] = "launching game..."
-            root.update()
-            subprocess.run([sourceport, '-iwad', 'freedoom2.wad', '-file', directory])
-        else:
-            download_status_label['text'] = "sourceport isn't selected'"
-    else:
-        download_status_label['text'] = "fdb*e is not installed"
 def set_sourceport():
     sourceport = filedialog.askopenfilename()
     sourceport_label['text'] = sourceport
     config.set('badass', 'sourceport', sourceport)
     with open('config.ini', 'w') as f:
         config.write(f)
+def start_game():
+    if is_git_repo(directory):
+        sourceport = config.get('badass', 'sourceport')
+        if sourceport != "":
+            download_status_label['text'] = "launching game..."
+            root.update()
+            subprocess.run([sourceport, '-iwad', 'freedoom2.wad', '-file', directory])
+        else:
+            download_status_label['text'] = "sourceport isn't selected"
+    else:
+        download_status_label['text'] = "fdb*e is not installed"
 def quit():
     root.destroy()
 
